@@ -1,2 +1,36 @@
 # SocialMediaMiningProject
-In che misura il successo virale di un artista crossover ridefinisce la sua posizione strutturale nella rete musicale, e fino a che punto il grafo del fandom TV invade o si separa dal grafo del consumo musicale indie?
+## Transizione Artistica del Cast di Stranger Things & Sentiment Analysis
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![NetworkX](https://img.shields.io/badge/NetworkX-Graph%20Analysis-orange.svg)](https://networkx.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-f7931e.svg)](https://scikit-learn.org/)
+[![Gephi](https://img.shields.io/badge/Gephi-Visualization-4d7c0f.svg)](https://gephi.org/)
+
+Questo repository contiene il codice sorgente, le pipeline di elaborazione dati e gli strumenti di analisi di rete sviluppati per un progetto di Tesi Magistrale. La ricerca analizza la transizione artistica dei membri del cast di *Stranger Things* (concentrandosi su **Djo / Joe Keery**, **Maya Hawke** e **Finn Wolfhard**) verso l'industria musicale, integrando **Network Science** e **Natural Language Processing (NLP)**.
+
+---
+
+### 🔍 Obiettivi di Ricerca
+1. **Topologia di Rete e Integrazione:** Verificare se i progetti musicali del cast formano cluster di fandom isolati o si integrano organicamente nei rispettivi generi musicali.
+2. **Comportamento di Co-ascolto del Pubblico:** Analizzare se il pubblico crea collegamenti strutturati e coerenti con i generi musicali o se si comporta come un'eccezione isolata.
+3. **Sovrapposizione delle Community:** Misurare la sovrapposizione strutturale tra il fandom globale della serie TV *Stranger Things* e le fan-base indipendenti degli attori-musicisti.
+4. **Inversione di Polarità del Sentiment:** Valutare come il successo di specifici personaggi (es. Steve/Djo) influenzi il sentiment online e il discorso pubblico rispetto al contesto generale della serie TV.
+
+---
+
+### 🛠️ Metodologia e Stack Tecnologico
+
+* **Estrazione Dati:** YouTube Data API v3 (raccolta di commenti, metadati e metriche di engagement) e strutture dati di Last.fm.
+* **Analisi di Rete:** `NetworkX` per la costruzione dei grafi, proiezioni di reti bipartite (`bipartite.projected_graph`) e metriche topologiche.
+* **Sentiment Analysis & Machine Learning:** Pipeline di apprendimento supervisionato con `Scikit-Learn` (`TfidfVectorizer` con n-grammi e `LinearSVC`) per classificare i commenti degli utenti in polarità positiva e negativa.
+* **Visualizzazione:** `Gephi` per il rilevamento delle community (algoritmo di Louvain) e layout spaziali delle reti (ForceAtlas 2).
+
+---
+
+### 📂 Struttura del Repository
+
+```text
+├── comparative_actor_network.graphml  # Grafo bipartito completo (Utenti ↔ Video ↔ Topic)
+├── projection_videos.graphml          # Grafo proiettato contenuto-contenuto (Co-commento video)
+├── matrice_confusione.png             # Visualizzazione della matrice di confusione per il modello di sentiment
+└── README.md                          # Documentazione del progetto
