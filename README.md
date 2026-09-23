@@ -31,7 +31,10 @@ Link alla presentazione : https://canva.link/6ods6tqn26gan6w
 ### 📂 Struttura del Repository
 
 ```text
-├── comparative_actor_network.graphml  # Grafo bipartito completo (Utenti ↔ Video ↔ Topic)
-├── projection_videos.graphml          # Grafo proiettato contenuto-contenuto (Co-commento video)
-├── matrice_confusione.png             # Visualizzazione della matrice di confusione per il modello di sentiment
-└── README.md                          # Documentazione del progetto
+├── gephi_crossover_music_network.png    # Grafo di co-ascolto con i dati estratti da Last.fm
+├── gephi_commenti_youtube_network.png   # Grafo commenti YouTube
+├── gephi_music_network_random.png       # Grafo rete random usata per il confronto
+├── gephi_tv_cast_network.png            # Grafo cast ottenuto con i dati estratti da TMDB
+├── gephi_community_detection.png        # Grafo community detection
+├── gephi_proiezione_sui_video.png       # Grafo proiettato contenuto-contenuto (Co-commento video)
+└── README.md                            # Documentazione del progetto
