@@ -1,4 +1,4 @@
-# SocialMediaMiningProject
+# Social Media Mining Project
 ## Transizione Artistica del Cast di Stranger Things & Sentiment Analysis
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
