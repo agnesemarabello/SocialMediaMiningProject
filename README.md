@@ -7,8 +7,8 @@
 [![Gephi](https://img.shields.io/badge/Gephi-Visualization-4d7c0f.svg)](https://gephi.org/)
 
 Questo repository contiene il codice sorgente, le pipeline di elaborazione dati e gli strumenti di analisi di rete sviluppati per il progetto dell'esame di Social Media Mining. La ricerca analizza la transizione artistica dei membri del cast di *Stranger Things* (concentrandosi su **Djo / Joe Keery**, **Maya Hawke** e **Finn Wolfhard**) verso l'industria musicale, integrando **Network Science** e **Natural Language Processing (NLP)**.
-
 Link alla presentazione : https://canva.link/6ods6tqn26gan6w
+
 ---
 
 ### 🔍 Obiettivi di Ricerca
