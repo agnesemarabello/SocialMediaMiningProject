@@ -31,6 +31,7 @@ Link alla presentazione : https://canva.link/6ods6tqn26gan6w
 ### 📂 Struttura del Repository
 
 ```text
+├── progetto SMMS                        # Deepnote contenente il codice del progetto
 ├── gephi_crossover_music_network.png    # Grafo di co-ascolto con i dati estratti da Last.fm
 ├── gephi_commenti_youtube_network.png   # Grafo commenti YouTube
 ├── gephi_music_network_random.png       # Grafo rete random usata per il confronto
